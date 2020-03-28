@@ -1,5 +1,6 @@
 # git-clone-forks
-Fetch branches from forks to local
+
+Fetch branches from forks to local.
 
 
 ## Instructions
@@ -9,4 +10,4 @@ Get the list of forks and add them to a forks.txt file. You can use the Github a
 Run the script
 
 ```bash
-$ ./fetch.sh git@github.com:org/repo.git
+$ ./fetch.sh git@github.com:org/repo.git >> branches.log
