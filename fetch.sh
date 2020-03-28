@@ -31,6 +31,7 @@ do
   git remote add $forKUser $forkRemote
   git fetch $forKUser
   git branch -r -l $forKUser/*
+  sleep 2
 done < "$remotes"
 
 echo "Total branches fetched"
